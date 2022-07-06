@@ -11,7 +11,7 @@ function Banner() {
         `https://api.themoviedb.org/3/trending/all/week?api_key=${API_KEY}&language=en-US`
       )
       .then((Response) => {
-        setMovie(Response.data.results[3]);
+        setMovie(Response.data.results[Math.floor(Math.random() * 10)]);
       });
   }, []);
 

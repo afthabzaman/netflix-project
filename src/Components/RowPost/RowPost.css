@@ -1,0 +1,17 @@
+.Posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    
+}
+.Posters::-webkit-scrollbar{
+    display: none;
+}
+.title{
+    color: white;
+    margin:5px
+}
+.poster{
+    height: 186px;
+    padding-right: 10px;
+}
